@@ -1,0 +1,97 @@
+
+body{
+  font-family:SegoeUI,"Segoe UI",Segoe,"Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-size:32px;
+  line-height:1.4285;
+  color:#505050;
+  background-color:#fff;
+  position:relative; 
+  margin-right:300px;
+  margin-left:300px;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+
+side {
+    float: right;
+    width: 33%;
+    padding: 500px;
+    background: #eee;
+}
+   
+form > div {
+  margin-bottom: 20px;
+}
+
+h2 a {
+  color: #0078d4;
+  text-decoration: none;
+}
+    
+h2 a:hover {
+  text-decoration: underline;
+}
+  
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e6e6e6;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: #fff;
+}
+
+.details{
+  padding: 0px 0px 0px 20px;
+
+}
+
+.btn{
+  background-color:#0072c6;
+  border-color:#bbb; 
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #505050;
+  color: #fff;
+}
+
+.btn-git{
+  background-color: #28a745;
+  background-image:linear-gradient(-180deg, rgb(52, 208, 88), rgb(40, 167, 69) 90%);
+  color:#fff;
+  padding: 10px 10px;
+  font-size: 16px;
+}
+.btn-zip{
+  border:0;
+  border-radius:0;
+  border-top: 1px solid #e1e4e8;
+  background : #fff;
+  color : #0366d6;
+  padding:10px 20px;
+  text-align:center;
+  font-size: 16px;
+  
+}
